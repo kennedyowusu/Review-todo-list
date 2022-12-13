@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Todo Application</title>
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+   
+   <main>
+      <div class="card">
+         <div class="card-body">
+
+         <div class="top-section">
+         <h5 class="card-title">Today's To Do</h5>
+         <button type="submit" class="todo-button">
+            <i class="material-icons">sync</i>
+         </button>
+         </div>
+
+         <form class="todo-form" id="inputTaskForm">
+         <input type="text" name="todo" placeholder="Add to your list..." id="inputTaskFormField">
+
+         <span class="material-icons">
+            subdirectory_arrow_left
+         </span>
+         </form>
+
+         <ul class="todo-container" id="taskTodoHolder"></ul>
+
+         </div>
+
+         <div class="card-footer text-muted clear-all-completed" id="clearTodoTask">
+         Clear all completed
+         </div>
+
+      </div>
+   </main>
+   
+</body>
+
+</html>

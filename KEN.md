@@ -1,5 +1,4 @@
-### Usage
-<a name="readme-top"></a>
+README<a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -22,7 +21,7 @@ REQUIRED SECTIONS:
 
 > Describe your project in 1 or 2 sentences.
 
-**[Todo Application - Peer Review]** is a basic website built using webpack
+**[Todo Application]** is a basic website built using webpack
 
 ## 🛠 Built With <a name="built-with">
 

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navbar-color: #3c3a39;
+  --hero-color: #1c1a19;
+  --orange-color: #ff6b00;
+  --semi-white-color: #fff5e1;
+  --white-color: #fff;
+  --black-color: #000;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --border-radius: 0.5rem;
+  --box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  --transition: all 0.03s linear;
+  --spacing: 0.3rem;
+  --light-spacing: 0.5rem;
+  --max-width: 1440px;
+}
+
+* {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.3s linear;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 50%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f2f2;
+  color: var(--black-color);
+}
+
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.card {
+  transform: translate(60%, 50%);
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 6px 4px #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  width: 44vw;
+  height: 56vh;
+  left: 50%;
+  top: 50%;
+}
+
+.card-body {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  width: 44vw;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.card-title {
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.todo-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  color: rgb(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todo-form {
+  width: 44vw;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+input[type="text"] {
+  color: #000;
+  font-style: italic;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+
+.subdirectory-arrow-left {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  color: rgb(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.each-todo-item {
+  width: 44vw;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+#todoDescription {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0, 0.7);
+  padding-left: 20px;
+}
+
+.more_vert {
+  background: #fff;
+  color: rgb(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.btn {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.card-footer {
+  width: 100%;
+  height: 20%;
+  margin-top: -69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0, 0.7);
+  background: #f2f2f2;
+}
